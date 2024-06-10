@@ -64,6 +64,7 @@ body {
 }
 .banner .btn {
   text-align: center;
+  padding-bottom: 50px;
 }
 .banner .btn button {
   text-transform: uppercase;
@@ -73,5 +74,146 @@ body {
   cursor: pointer;
   border: 2px solid green;
   color: green;
+  font-size: 22px;
+}
+
+.section1 {
+  padding: 50px 80px;
+  display: grid;
+  background-color: black;
+  color: whitesmoke;
+  grid-template-columns: 50% 50%;
+  box-shadow: 0px 20px slategrey;
+}
+.section1 .sec1-img {
+  border-radius: 5px;
+  background: center no-repeat;
+}
+.section1 .sec1-img img {
+  height: 500px;
+  width: 100%;
+}
+.section1 .sec1-conten {
+  padding-left: 30px;
+}
+.section1 .sec1-conten .tit img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+.section1 .sec1-conten .tit span {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 20px;
+}
+.section1 .sec1-conten .cten {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section1 .sec1-conten .cten span {
+  font-style: italic;
+  font-size: 18px;
+}
+.section1 .sec1-conten button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 2px solid green;
+  color: green;
+  font-size: 22px;
+}
+
+.section2 {
+  padding: 50px 80px;
+  display: grid;
+  background-color: black;
+  color: whitesmoke;
+  grid-template-columns: 50% 50%;
+  box-shadow: 0px 20px slategrey;
+}
+.section2 .sec2-img {
+  border-radius: 5px;
+  background: center no-repeat;
+  padding-left: 30px;
+}
+.section2 .sec2-img img {
+  height: 450px;
+  width: 100%;
+}
+.section2 .sec2-conten .tit2 img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+.section2 .sec2-conten .tit2 span {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+.section2 .sec2-conten .cten2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section2 .sec2-conten .cten2 span {
+  font-style: italic;
+  font-size: 18px;
+}
+.section2 .sec2-conten button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 2px solid green;
+  color: green;
+  font-size: 22px;
+}
+
+.section3 {
+  padding: 50px 80px 30px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  color: azure;
+  background-color: #5dbd70;
+}
+.section3 .text-icon1,
+.section3 .text-icon2,
+.section3 .text-icon3,
+.section3 .text-icon4,
+.section3 .text-icon5 {
+  display: block;
+  text-align: center;
+}
+.section3 .text-icon1 img,
+.section3 .text-icon2 img,
+.section3 .text-icon3 img,
+.section3 .text-icon4 img,
+.section3 .text-icon5 img {
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  border: 2px black solid;
+  border-radius: 50%;
+}
+.section3 .text-icon1 span,
+.section3 .text-icon2 span,
+.section3 .text-icon3 span,
+.section3 .text-icon4 span,
+.section3 .text-icon5 span {
+  padding: 5px 13px;
+  font-size: 22px;
+  border: 2px black solid;
+  margin-top: -15px;
+  border-radius: 50%;
+}
+.section3 .text-icon1 p,
+.section3 .text-icon2 p,
+.section3 .text-icon3 p,
+.section3 .text-icon4 p,
+.section3 .text-icon5 p {
+  height: 30px;
+  text-transform: uppercase;
   font-size: 22px;
 }
